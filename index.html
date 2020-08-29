@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+    <form>
+        <div>
+          <label for="namef">Imię </label>
+          <input type="text" name="namef" id="namef" >
+        </div>
+        <br>
+        <div>
+          <label for="surnamef">Nazwisko </label>
+          <input type="text" name="surnamef" id="surnamef">
+        </div>
+        <br>
+        <div>
+            <label for="phonef">Telefon </label>
+            <input type="text" name="phonef" id="phonef">
+        </div>
+      </form>
+      
+    <br>
+
+    <button id="myButton" onclick = "formSubmit()">Wyświetl dane</button>
+    <div id="container">
+        <p>Dane:</p>
+        <p id="name"></p>
+        <p id="surname"></p>
+        <p id="phone"></p>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
