@@ -1,6 +1,6 @@
 
 
-function formSubmit(){
+myButton.onclick = function myF(){
     let name = document.getElementById('namef').value;
     let surname = document.getElementById('surnamef').value;
     let phone = document.getElementById('phonef').value;
